@@ -55,5 +55,6 @@ if __name__ == '__main__':
     from moviepy.editor import VideoFileClip
     hour , mins, secs = convert(get_length(list))
     done = True
+    time.sleep(.1)
     print(f'Total Duration: {hour}:{mins}:{secs}')
 
